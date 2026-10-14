@@ -1,8 +1,8 @@
 import { Suspense } from "react";
-import { Header } from "@/components/ui/Header";
-import { Banner } from "@/components/ui/Banner";
-import { MovieRow } from "@/components/ui/MovieRow";
-import { RowSkelton } from "@/components/ui/RowSkelton";
+import { Header } from "@/app/components/ui/Header";
+import { Banner } from "@/app/components/ui/Banner";
+import { MovieRow } from "@/app/components/ui/MovieRow";
+import { RowSkelton } from "@/app/components/ui/RowSkelton";
 import { fetchRandomMovies, getMovieCategories } from "@/lib/tmdb";
 
 export default async function HomePage() {
